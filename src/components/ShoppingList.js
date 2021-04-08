@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Item from "./Item";
 
 function ShoppingList({ items }) {
-  const [selectCategory, setSelectCategory]=useState("all")
+  const [selectCategory, setSelectCategory]=useState("All")
 
   function handleCategoryChange(event){
     console.log(selectCategory,setSelectCategory)
